@@ -3,5 +3,6 @@ version: '3.9'
 services:
   web:
     build: .
+    image: latest
     ports:
       - "8000:8000"
